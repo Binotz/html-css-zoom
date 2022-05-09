@@ -3,3 +3,29 @@
     margin: 0; 
     box-sizing: border-box;
 }
+
+/* Header */
+header{
+    height: 80px;
+    background-color: black;
+}
+
+.header-icons{
+    margin: 5px;
+    float: right;
+}
+
+.header-icons>*{
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #4a4a4a;
+}
+
+.header-icons>i{
+    padding: 6px;
+}
+
+.speaker{
+    display: inline-block;
+}
