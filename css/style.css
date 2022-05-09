@@ -43,7 +43,9 @@ header{
 
 /* MAIN */
 main{
+    height: calc(100vh - 180px);
     background-color: black;
+    overflow-y: scroll;
 }
 
 .cards-layout{
@@ -66,4 +68,65 @@ main{
     padding: 5px;
     /* Overlay */
     background-color: rgba(0,0,0,0.4);
+}
+
+/* Footer */
+footer{
+    color: white;
+    height: 100px;
+    background-color: #222222;
+}
+
+.footer-layout{
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.user-action{
+    width: 10%;
+}
+
+.meeting-action{
+    width: 80%;
+    justify-content: center;
+}
+
+.meeting-end{
+    width: 10%;
+    height: 100%;
+}
+
+.action{
+    padding: 0 10px;
+}
+
+.iconandlabel{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.arrow{
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    color: #4bc800;
+}
+
+.end{
+    height: 100%;
+    text-align: end;    
+    background-color: #4a4a4a;
+    justify-content: center;
+    align-items: center;
+}
+
+.end a{
+    text-decoration: none;
+    color: red;
 }
